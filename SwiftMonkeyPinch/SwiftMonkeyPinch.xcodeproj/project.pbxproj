@@ -63,12 +63,9 @@
 		256167EA1E1CF17600744D32 /* SwiftMonkeyPinch */ = {
 			isa = PBXGroup;
 			children = (
-				256167EB1E1CF17600744D32 /* AppDelegate.swift */,
-				256167ED1E1CF17600744D32 /* ViewController.swift */,
-				256167EF1E1CF17600744D32 /* Main.storyboard */,
-				256167F21E1CF17600744D32 /* Assets.xcassets */,
-				256167F41E1CF17600744D32 /* LaunchScreen.storyboard */,
-				256167F71E1CF17600744D32 /* Info.plist */,
+				2E8AF54C1EFBEFDC00A8F658 /* Supporting Files */,
+				2E8AF54B1EFBEFCF00A8F658 /* Views */,
+				2E8AF54A1EFBEFC100A8F658 /* Controller */,
 			);
 			path = SwiftMonkeyPinch;
 			sourceTree = "<group>";
@@ -82,6 +79,33 @@
 				256168031E1CF2F400744D32 /* monkey@2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		2E8AF54A1EFBEFC100A8F658 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				256167EB1E1CF17600744D32 /* AppDelegate.swift */,
+				256167ED1E1CF17600744D32 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2E8AF54B1EFBEFCF00A8F658 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				256167EF1E1CF17600744D32 /* Main.storyboard */,
+				256167F41E1CF17600744D32 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2E8AF54C1EFBEFDC00A8F658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				256167F21E1CF17600744D32 /* Assets.xcassets */,
+				256167F71E1CF17600744D32 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
